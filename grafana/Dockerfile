@@ -8,3 +8,7 @@ COPY dashboards /etc/grafana/dashboards/
 ENV GF_SECURITY_ADMIN_PASSWORD=admin \
     GF_SECURITY_ADMIN_USER=admin \
     GF_PATHS_PROVISIONING=/etc/grafana/provisioning/
+
+# install https://grafana.com/plugins/grafana-piechart-panel/installation
+RUN grafana-cli plugins install grafana-piechart-panel
+
