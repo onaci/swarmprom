@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 FROM grafana/grafana:5.3.4
-=======
-#FROM grafana/grafana:5.0.4
-FROM grafana/grafana:5.1.0
->>>>>>> 1312973... upgrade to grafana5.1.0
 # https://hub.docker.com/r/grafana/grafana/tags/
 
 COPY datasources /etc/grafana/provisioning/datasources/
